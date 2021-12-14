@@ -1,7 +1,7 @@
-# WPF Core: Entity Framework with SqlServer and MVVM
+# WPF .NET6: Entity Framework with SqlServer and MVVM
 
 The application demonstrates the use of Entity Framework to perform CRUD operations on a Microsoft SQL Server database.  
-Application uses the MVVM pattern.
+Application uses the MVVM pattern and .NET6 new technology.
 Application uses my "nice" WPF windows (see: https://github.com/janluksoft/WPFCoreNiceWin).
 
 The structure of the table is defined by the POCO (CPerson) class. The class (PeopleDBContext) creates a context (dbPersons) that represents a table (Sprinters) in the form of an object. Operations on this object are automatically transferred to the table (Sprinters) in the database.
@@ -10,8 +10,8 @@ The structure of the table is defined by the POCO (CPerson) class. The class (Pe
 
 ## Details
 
-- Environment: VS2019
-- Target: .NET5 (.NET Core)
+- Environment: VS2022
+- Target: .NET6 (.NET Core)
 - Window: WPF
 - Pattern: MVVM
 - Tests: unit and integration
